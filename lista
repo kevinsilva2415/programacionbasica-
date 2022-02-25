@@ -1,0 +1,5 @@
+lista_vacia=[]
+for i in range(100):
+    lista_vacia.append(input("digite un idioma: "))
+    
+print(lista_vacia)
