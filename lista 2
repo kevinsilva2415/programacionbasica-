@@ -1,0 +1,9 @@
+pvto = [5, 8.9,"hola", False,"programacion", True,9  ]
+print(pvto)
+print(pvto[2])
+print(pvto[0]+pvto[1])
+print(pvto[2]+ " " + pvto[4])
+print(len(pvto))
+
+print(pvto[0:3]) 
+print(pvto[0:7:2])
