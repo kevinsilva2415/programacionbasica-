@@ -1,0 +1,4 @@
+def mensaje(numero):
+    print("hola mundo ", numero))
+
+mensaje(6)
