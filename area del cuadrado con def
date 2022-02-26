@@ -1,0 +1,6 @@
+b=int(input("ingrese variable de la base: "))
+h=int(input("ingrese variable de la altura: "))
+
+def area(b,h):
+    print("area del cuardrado", b*h)
+area(b,h)
