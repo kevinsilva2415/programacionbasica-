@@ -1,0 +1,7 @@
+r=float(input("ingrese variable del radio: "))
+
+
+def area(r):
+    pi=3.1416
+    print("area del circulo", r**2*pi)
+area(r)
