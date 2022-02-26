@@ -1,0 +1,10 @@
+invitados=[]
+invitados.append(input("ingrese nombre del invitado: "))
+otro=input("deseas agregar otro invitado?  y/n  : ")
+
+while otro == "y":
+    invitados.append(input("ingrese nombre del invitado: "))
+    otro=input("deseas agregar otro invitado?  y/n  : ")
+
+print("usted tiene", len(invitados, "invitados"))
+print(invitados)
