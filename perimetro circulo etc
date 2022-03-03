@@ -1,0 +1,18 @@
+def perimetro_cuadrado():
+    lado= float(input("ingrese valor del lado: "))
+    print("el perimetro del cuadrado es : ",4*lado)
+    
+perimetro_cuadrado()
+
+def perimetro_rectangulo():
+    h= float(input("ingrese valor la altura: "))
+    b= float(input("ingrese valor la base: "))
+    print("el perimetro del rectangulo es : ", (2*b) + (2*h))
+
+perimetro_rectangulo()
+
+def perimetro_circulo():
+    radio= float(input("ingrese valor del radio: "))
+    pi=3.1416
+    print("el perimetro del circulo es : ", 2*pi*radio)
+perimetro_circulo()
