@@ -1,0 +1,13 @@
+nota=float(input("digite su nota de parcial: "))
+
+if nota >= 3.0:
+    print("felicidades paso")
+
+elif nota >= 4.0 and nota <= 4.5:
+    print("beca")
+
+elif nota > 4.5:
+    print("beca honores")
+
+else:
+    print("se la tiro")
