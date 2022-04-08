@@ -1,0 +1,14 @@
+class humano():
+    def __init__(self,edad,nombre):
+        self.edad=edad
+        self.nombre=nombre
+        
+    def presentar(self):
+        presentacion=("hola soy {} y mi edad es {}")
+        print(presentacion.format(self.nombre,self.edad))
+        
+        
+persona1=humano(31,"pedro")
+persona1.presentar()
+persona2=humano(18,"siiuuuu")
+persona2.presentar()
